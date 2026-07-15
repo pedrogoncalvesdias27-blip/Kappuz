@@ -366,3 +366,61 @@ footer p{
 }
 
 }
+
+/* ===== 404 ===== */
+
+.erro404{
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+.logo404{
+
+    width:120px;
+
+    margin-bottom:25px;
+
+}
+
+.erro404 h1{
+
+    font-size:110px;
+
+    color:#38bdf8;
+
+    margin-bottom:10px;
+
+}
+
+.erro404 h2{
+
+    font-size:34px;
+
+    margin-bottom:20px;
+
+}
+
+.erro404 p{
+
+    max-width:550px;
+
+    color:#cbd5e1;
+
+    line-height:30px;
+
+    margin-bottom:35px;
+
+}
