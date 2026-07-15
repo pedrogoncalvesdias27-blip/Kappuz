@@ -1,0 +1,368 @@
+/* ===== GERAL ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#111827;
+    color:#fff;
+}
+
+/* ===== CABEÇALHO ===== */
+
+header{
+
+    position:sticky;
+    top:0;
+
+    background:#111827ee;
+
+    backdrop-filter:blur(12px);
+
+    padding:18px;
+
+    border-bottom:1px solid #243244;
+
+    z-index:999;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.logo img{
+
+    width:55px;
+    height:55px;
+
+    border-radius:50%;
+
+}
+
+.logo h1{
+
+    font-size:22px;
+
+}
+
+.logo p{
+
+    color:#94a3b8;
+
+    font-size:14px;
+
+}
+
+/* ===== CONTEÚDO ===== */
+
+main{
+
+    width:92%;
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.inicio,
+.titulo,
+.contato,
+.chamada{
+
+    text-align:center;
+
+    margin:50px 0;
+
+}
+
+.inicio h2,
+.titulo h2,
+.contato h2,
+.chamada h2{
+
+    font-size:34px;
+
+    color:#38bdf8;
+
+    margin-bottom:18px;
+
+}
+
+.inicio p,
+.titulo p,
+.contato p,
+.chamada p{
+
+    color:#cbd5e1;
+
+    line-height:30px;
+
+}
+
+/* ===== BOTÕES ===== */
+
+.botoes{
+
+    display:flex;
+
+    gap:15px;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    margin-top:35px;
+
+}
+
+.botao{
+
+    background:#0ea5e9;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 28px;
+
+    border-radius:14px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    min-width:180px;
+
+    text-align:center;
+
+}
+
+.botao:hover{
+
+    background:#0284c7;
+
+    transform:translateY(-3px);
+
+}
+
+.secundario{
+
+    background:#1e293b;
+
+}
+
+.secundario:hover{
+
+    background:#334155;
+
+}
+
+/* ===== CARDS ===== */
+
+.cards{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    margin:40px 0;
+
+}
+
+.card{
+
+    background:#1e293b;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    border:1px solid #334155;
+
+}
+
+.card h3{
+
+    color:#38bdf8;
+
+    margin-bottom:12px;
+
+}
+
+.card h2{
+
+    margin:10px 0;
+
+}
+
+.card p{
+
+    color:#cbd5e1;
+
+    line-height:28px;
+
+}
+
+.card:hover{
+
+    border-color:#38bdf8;
+
+}
+
+/* ===== SELO ===== */
+
+.selo{
+
+    display:inline-block;
+
+    background:#38bdf8;
+
+    color:#111827;
+
+    padding:6px 12px;
+
+    border-radius:999px;
+
+    font-size:12px;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+
+}
+
+/* ===== ITENS ===== */
+
+.item{
+
+    background:#1e293b;
+
+    padding:22px;
+
+    border-radius:18px;
+
+    margin-bottom:18px;
+
+}
+
+.item h3{
+
+    color:#38bdf8;
+
+    margin-bottom:10px;
+
+}
+
+.item p{
+
+    color:#cbd5e1;
+
+}
+
+/* ===== RODAPÉ ===== */
+
+footer{
+
+    margin-top:60px;
+
+    background:#0f172a;
+
+    padding:30px;
+
+    text-align:center;
+
+}
+
+footer p{
+
+    color:#94a3b8;
+
+    margin-bottom:15px;
+
+}
+
+/* ===== WHATSAPP ===== */
+
+.whatsapp{
+
+    display:inline-block;
+
+    background:#22c55e;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 25px;
+
+    border-radius:14px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.whatsapp:hover{
+
+    background:#16a34a;
+
+}
+
+/* ===== CELULAR ===== */
+
+@media(max-width:768px){
+
+.logo{
+
+    justify-content:center;
+
+}
+
+.logo h1{
+
+    font-size:20px;
+
+}
+
+.inicio h2,
+.titulo h2,
+.contato h2,
+.chamada h2{
+
+    font-size:28px;
+
+}
+
+.botao{
+
+    width:100%;
+
+}
+
+.whatsapp{
+
+    width:100%;
+
+}
+
+}
